@@ -4,23 +4,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Muli&display=swap" rel="stylesheet">
   <title>Hotel Booking Website</title>
 </head>
 <body>
   <Header>
-    <Nav class="nav-top">
+    <nav>
       <section class="navbar-top">
-        <h2 hidden>navbar-top</h2>
+        <div class="container">
+          <h2 hidden>navbar-top</h2>
+          <div class="navbar-top__help">
+            <span class="navbar-top__title">Questions? Need Help?</span>
+            <span>Call us on (+123) 456 1500</span>
+          </div>
+          <ul class="navbar-top__link">
+            <li>
+              <img class="navbar-top__icon" src="./images/gift.svg" alt="gift">
+              <a href="#">BTP Gift Card</a>
+            </li>
+            <li>
+              <img class="navbar-top__icon" src="./images/star.svg" alt="star">
+              <a href="#">Loyality Program</a>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="navbar">
-        <h2 hidden>navbar</h2>
+        <div class="container">
+          <h2 hidden>navbar</h2>
+          <span class="navbar__title">Best <strong>tour</strong> plan</span>
+          <div class="navbar__search">
+            <input type="text" placeholder="Search Location">
+            <span class="navbar__search__button"><img src="./images/search.svg" alt=""></span>
+          </div>
+          <div class="navbar__cart">
+            <div class="navbar__cart__badge">2</div>
+            <img class="navbar__cart__icon" src="./images/shopping-cart.svg" alt="shopping cart">
+          </div>
+          <div class="navbar__profile">
+            <img src="./images/profile.png" alt="profile image" class="navbar__profile__image">
+            <span class="navbar__profile__name">Nathan</span>
+            <img src="./images/chevron-down.svg" alt="chevron down" class="navbar__profile__down">
+          </div>
+        </div>
       </section>
       <section class="navbar-bottom">
-        <h2 hidden>navbar-bottom</h2>
+        <div class="container">
+          <h2 hidden>navbar-bottom</h2>
+          <ul class="navbar-bottom__menu">
+            <li><a href="#">All Deals</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Hotel Day Packages</a></li>
+            <li><a href="#">Restaurants</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Rodrigues</a></li>
+          </ul>
+        </div>
       </section>
-    </Nav>
+    </nav>
   </Header>
-  <main>
+  <!-- <main>
    <div class="container">
     <section class="brand-crumb">
       <h2 hidden>brand crumb</h2>
@@ -61,6 +105,6 @@
   </main>
   <Footer>
     <h2 hidden>footer</h2>
-  </Footer>
+  </Footer> -->
 </body>
 </html>
