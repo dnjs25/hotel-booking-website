@@ -2,9 +2,6 @@ body {
   margin: 0;
   padding: 0;
   background: #FFFFFF;
-}
-
-nav {
   font-family: 'Muli';
   font-style: normal;
 }
@@ -203,3 +200,93 @@ input::placeholder {
 
 /* ~~~ navbar-bottom */
 
+
+/* ### brand-crumb */
+
+.brand-crumb {
+  height: 50px;
+  width: 100%;
+  background: #F5FAFE;
+}
+
+.brand-crumb .container span {
+  font-size: 10px;
+}
+
+/* ~~~ brand-crumb */
+
+
+/* ### hotel-name */
+
+.hotel-name {
+  height: 100px;
+}
+
+.hotel-name__information__star {
+  padding-left: 1px;
+}
+
+.hotel-name__information__title h2 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.hotel-name__information__offer {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  background: #EC1F46;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.hotel-name__information__offer p {
+  font-size: 10px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+}
+
+.hotel-name__information__summary {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+}
+
+.hotel-name__user-rattings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65px;
+  height: 45px;
+  background: #EC1F46;
+  border-radius: 4px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hotel-name__user-rattings .title {
+  vertical-align: middle;
+  font-size: 8px;
+  line-height: 10px;
+  margin: 0;
+}
+
+.hotel-name__user-rattings .rate {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0;
+}
+
+.hotel-name__user-rattings strong {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+/* ~~~ hotel-name */
