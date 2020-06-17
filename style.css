@@ -182,7 +182,7 @@ input::placeholder {
   vertical-align: middle;
 }
 
-.navbar-bottom__menu {
+.tab {
   list-style: none;
   padding-left: 0;
   display: flex;
@@ -190,10 +190,13 @@ input::placeholder {
   flex-grow: 1;
 }
 
-.navbar-bottom__menu li a {
+.tab__item {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+}
+
+.tab__item.nav-bottom__tab-item {
   text-transform: uppercase;
   color: white;
 }
@@ -294,6 +297,10 @@ input::placeholder {
 
 /* ### hotel-detail */
 
+.hotel-detail {
+  display: flex;
+}
+
 /* ~~~ hotel-detail */
 
 
@@ -301,20 +308,6 @@ input::placeholder {
 
 .card-menu {
   vertical-align: middle;
-}
-
-.tab {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
-}
-
-.tab__item {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
 }
 
 .tab__item--focused {
