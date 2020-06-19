@@ -299,6 +299,107 @@ input::placeholder {
 
 .hotel-detail {
   display: flex;
+  justify-content: space-between;
+}
+
+.hotel-detail {
+  display: flex;
+}
+
+.hotel-detail__slider {
+  height: 450px;
+  background: #C4C4C4;
+  border-radius: 8px;
+}
+
+.hotel-detail2 {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-detail__booking {
+  font-family: 'Nunito';
+  justify-content: space-between;
+  width: 400px;
+  height: 212px;
+  background: #0A223D;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.hotel-detail__map {
+  justify-content: space-between;
+  height: 212px;
+}
+
+.hotel-detail__map img {
+  width: 400px;
+  height: 212px;
+}
+
+.container-small {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.booking-area {
+  font-family: 'Nunito';
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+.area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.area1 p {
+  margin: 0;
+}
+
+.starts {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.price {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.room {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.quick-price {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 15px 0 15px 0;
+}
+
+.options-button {
+  width: 295px;
+  height: 45px;
+  background: #EC1F46;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options-button span {
+  font-family: 'Nunito';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 45px;
+  color: #FFFFFF;
 }
 
 /* ~~~ hotel-detail */
@@ -315,4 +416,5 @@ input::placeholder {
   border-bottom: 4px solid #EC1F46;
   padding-bottom: 15px;
 }
+
 /* ~~~ card-menu */
