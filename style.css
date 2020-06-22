@@ -413,6 +413,7 @@ input::placeholder {
 
 .card-menu {
   vertical-align: middle;
+  margin: 60px 0 40px 0;
 }
 
 .tab__item--focused {
