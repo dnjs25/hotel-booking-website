@@ -1,18 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  background: #FFFFFF;
   font-family: 'Muli';
   font-style: normal;
+  background: #F5FAFE;
+  height: 5370px;
 }
 
 .container {
   width: 80%;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-between;
 }
 
@@ -526,3 +527,158 @@ input::placeholder {
 }
 
 /* ~~~ package-summery */
+
+
+/* ### other-package */
+
+.other-package {
+  height: 1250px;
+  border: 1px solid red;
+}
+
+.container {
+  border: 1px dashed darkblue;
+}
+
+.trip-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title.other-package-title {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  margin: 100px auto 60px auto;
+  border: 1px solid pink;
+}
+
+.trip-card-box, .trip-card-box2 {
+  border: 1px dashed orangered;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trip-card_big {
+  width: 730px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  background: #0A223D;
+  color: #FFFFFF;
+}
+
+.trip-card-big__contents {
+  margin-top: 50px;
+  /* vertical-align: middle; */
+}
+
+.info-text {
+  font-size: 14px;
+  line-height: 160.6%;
+  /* or 22px */
+}
+
+.trip-card_small {
+  width: 350px;
+  height: 500px;
+  border: 1px solid greenyellow;
+}
+
+.pin {
+  position: relative;
+  top: 26px;
+  width: 60px;
+  height: 18px;
+  background: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+  text-align: center;
+}
+
+.pin span {
+  vertical-align: middle;
+  width: 42px;
+  height: 10px;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.trip-image {
+  width: 100%;
+  height: 250px;
+  background: #007ADF;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.trip-card-contents {
+  height: 250px;
+  background: #0A223D;
+  color: #FFFFFF;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.trip-text {
+  width: 80%;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 30px 0 10px 0;
+}
+
+.trip-card-contents p, .trip-card-big__contents p {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.trip-card-contents p img {
+  vertical-align: middle;
+  padding-right: 14px;
+}
+
+.total-price {
+  margin: 24px auto 30px auto;  
+}
+
+
+.normal-price {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #FFFFFF;
+}
+
+.discount-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-price span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.book-buttons {
+  width: 120px;
+  height: 40px;
+  background: #EC1F46;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.book-buttons span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
