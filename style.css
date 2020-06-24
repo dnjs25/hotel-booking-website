@@ -679,3 +679,66 @@ dt {
   line-height: 40px;
   color: #FFFFFF;
 }
+
+/* ~~~ other-package */
+
+
+/* ### guest-review */
+
+.guest-review {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h2.title.guest-review-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  margin: 40px auto 70px auto;
+}
+
+.guest-review-contents {
+  width: 731px;
+  height: 280px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.user-image {
+  position: relative;
+  top: -50px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #EC1F46;
+}
+
+.user-date {
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  margin: 0;
+}
+
+.user-review {
+  width: 537px;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+  text-align: justify;
+  margin: 32px auto 0 auto;
+}
+
+.text {
+  position: relative;
+  top: -50px;
+}
+/* ~~~ guest-review */
