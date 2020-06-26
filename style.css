@@ -820,3 +820,86 @@ input::placeholder {
 }
 
 /* ~~~ news-letter */
+
+
+/* ### other-activities */
+
+.other-activities {
+  height: 500px;
+}
+
+.other-activities-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 57px 0;
+}
+
+.activities-box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px dashed pink;
+}
+
+.activities-card-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activities-card {
+  width: 255px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.activities-card:nth-child(1) {
+  background: url('./images/other-activities/other_activity_1.png');
+}
+
+.activities-card:nth-child(2) {
+  background: url('./images/other-activities/other_activity_2.png');
+}
+
+.activities-card:nth-child(3) {
+  background: url('./images/other-activities/other_activity_3.png');
+}
+
+.activities-card:nth-child(4) {
+  background: url('./images/other-activities/other_activity_4.png');
+}
+
+.activities-card-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  width: 145px;
+  height: 40px;
+  margin-left: 26px;
+}
+
+.book-buttons.small {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  margin: 18px 0 24px 26px;
+}
+
+.book-buttons.small span {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+
+/* ~~~ other-activities */
+
+
