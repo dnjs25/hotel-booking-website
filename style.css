@@ -308,10 +308,6 @@ input::placeholder {
   justify-content: space-between;
 }
 
-.hotel-detail {
-  display: flex;
-}
-
 .hotel-detail__slider {
   height: 450px;
   background: #C4C4C4;
@@ -328,7 +324,7 @@ input::placeholder {
 .hotel-detail__booking {
   font-family: 'Nunito';
   justify-content: space-between;
-  width: 400px;
+  width: 350px;
   height: 212px;
   background: #0A223D;
   color: #FFFFFF;
@@ -341,12 +337,12 @@ input::placeholder {
 }
 
 .hotel-detail__map img {
-  width: 400px;
+  width: 350px;
   height: 212px;
 }
 
 .container-small {
-  width: 75%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -364,6 +360,15 @@ input::placeholder {
 
 .area1 p {
   margin: 0;
+}
+
+.area2 {
+  text-align: right;
+}
+
+.area2 span {
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .starts {
