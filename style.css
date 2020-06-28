@@ -4,7 +4,6 @@ body {
   font-family: 'Muli';
   font-style: normal;
   background: #F5FAFE;
-  height: 5370px;
 }
 
 .container {
@@ -93,6 +92,7 @@ a {
 .navbar__search input {
   border-style: none;
   color: #333333;
+  background: #F5FAFE;
   padding: 0;
 }
 
@@ -906,4 +906,13 @@ input::placeholder {
 
 /* ~~~ other-activities */
 
+
+/* ### Footer */
+
+Footer {
+  height: 900px;
+  background: #0A223D;
+}
+
+/* ~~~ Footer */
 
