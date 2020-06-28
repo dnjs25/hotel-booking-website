@@ -771,7 +771,7 @@ h2.title.guest-review-title {
 
 .subscribe p:nth-child(1) {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 24px;W
   line-height: 30px;
 }
 
@@ -914,5 +914,30 @@ Footer {
   background: #0A223D;
 }
 
-/* ~~~ Footer */
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.footer-top, .footer-contact, .footer-bottom, .bottom-etc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  width: 166px;
+  height: 192px;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+.footer-title strong {
+  color: #EC1F46;
+}
+
+/* ~~~ Footer */
