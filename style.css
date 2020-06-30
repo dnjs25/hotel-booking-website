@@ -24,7 +24,6 @@ body {
 }
 
 .navbar-top__help {
-  vertical-align: middle;
   font-size: 10px;
 }
 
@@ -36,12 +35,10 @@ body {
 .navbar-top__link {
   display: flex;
   list-style: none;
-  padding-right: 0;
 }
 
 .navbar-top__link li {
   padding-left: 150px;
-  padding-right: 0;
 }
 
 .navbar-top__icon {
@@ -53,7 +50,6 @@ body {
 
 a {
   font-size: 10px;
-  font-weight: 13px;
   text-decoration: none;
   color: #333333;
 }
@@ -111,7 +107,6 @@ input::placeholder {
 }
 
 .navbar__search__button {
-  display:block;
   float: right;
   width: 65px;
   height: 40px;
@@ -156,10 +151,6 @@ input::placeholder {
   justify-content: flex-end;
 }
 
-.navbar__profile__image {
-  vertical-align: middle;
-}
-
 .navbar__profile__name {
   width: 49px;
   height: 18px;
@@ -180,7 +171,6 @@ input::placeholder {
 
 .navbar-bottom {
   background: #0A223D;
-  vertical-align: middle;
 }
 
 .tab {
@@ -771,7 +761,7 @@ h2.title.guest-review-title {
 
 .subscribe p:nth-child(1) {
   font-weight: 300;
-  font-size: 24px;W
+  font-size: 24px;
   line-height: 30px;
 }
 
