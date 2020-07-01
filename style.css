@@ -268,15 +268,13 @@ input::placeholder {
   color: #FFFFFF;
 }
 
-.hotel-name__user-rattings .title {
+.hotel-name__user-rattings .rattings-title {
   vertical-align: middle;
   font-size: 8px;
-  line-height: 10px;
   margin: 0;
 }
 
 .hotel-name__user-rattings .rate {
-  vertical-align: middle;
   font-weight: bold;
   font-size: 10px;
   line-height: 10px;
@@ -293,18 +291,13 @@ input::placeholder {
 
 /* ### hotel-detail */
 
-.hotel-detail {
-  display: flex;
-  justify-content: space-between;
-}
-
 .hotel-detail__slider {
   height: 450px;
   background: #C4C4C4;
   border-radius: 8px;
 }
 
-.hotel-detail2 {
+.hotel-detail__right {
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -337,26 +330,26 @@ input::placeholder {
   margin-right: auto;
 }
 
-.booking-area {
+.booking {
   font-family: 'Nunito';
   margin-top: 24px;
   justify-content: space-between;
 }
 
-.area {
+.booking-detail {
   display: flex;
   justify-content: space-between;
 }
 
-.area1 p {
+.price p {
   margin: 0;
 }
 
-.area2 {
+.person-room {
   text-align: right;
 }
 
-.area2 span {
+.person-room span {
   font-size: 12px;
   line-height: 16px;
 }
@@ -366,7 +359,7 @@ input::placeholder {
   line-height: 14px;
 }
 
-.price {
+.price-display {
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
@@ -377,7 +370,7 @@ input::placeholder {
   line-height: 16px;
 }
 
-.quick-price {
+.call-center {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
