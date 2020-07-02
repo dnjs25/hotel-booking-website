@@ -402,7 +402,6 @@ input::placeholder {
 /* ### card-menu */
 
 .card-menu {
-  vertical-align: middle;
   margin: 60px 0 40px 0;
 }
 
@@ -417,7 +416,6 @@ input::placeholder {
 /* ### package-summery */
 
 .package-summery {
-  font-family: 'Muli';
   margin: 40px 0 65px 0;
 }
 
