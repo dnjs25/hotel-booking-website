@@ -934,14 +934,12 @@ Footer {
   width: 166px;
   height: 192px;
   font-family: 'Luckiest Guy';
-  font-style: normal;
-  font-weight: normal;
   font-size: 64px;
   line-height: 64px;
   color: #FFFFFF;
 }
 
-.footer-title strong {
+.footer-title span {
   color: #EC1F46;
 }
 
