@@ -549,6 +549,7 @@ input::placeholder {
   background: #0A223D;
   color: #FFFFFF;
   border-radius: 8px;
+  position: relative;
 }
 
 .trip-card-big__contents {
@@ -569,10 +570,11 @@ input::placeholder {
 .trip-card_small {
   width: 350px;
   height: 500px;
+  position: relative;
 }
 
 .pin {
-  position: relative;
+  position: absolute;
   top: 26px;
   width: 60px;
   height: 18px;
@@ -582,12 +584,12 @@ input::placeholder {
 }
 
 .pin span {
-  vertical-align: middle;
   width: 42px;
   height: 10px;
   font-weight: 600;
   font-size: 8px;
   line-height: 18px;
+  vertical-align: middle;
   color: #FFFFFF;
 }
 
