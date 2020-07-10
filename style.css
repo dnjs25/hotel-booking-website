@@ -17,6 +17,18 @@ body {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+}
+
 /* ### navbar-top */
 
 .navbar-top {
@@ -52,6 +64,30 @@ a {
   font-size: 10px;
   text-decoration: none;
   color: #333333;
+}
+
+@media screen and (max-width: 414px) {
+  .navbar-top__title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navbar-top__link {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navbar-top__link li {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-top__link li {
+    padding-left: 10px;
+  }
 }
 
 /* ~~~ navbar-top */
