@@ -621,6 +621,8 @@ input::placeholder {
 }
 
 .pin span {
+  position: relative;
+  top: -2px;
   width: 42px;
   height: 10px;
   font-weight: 600;
