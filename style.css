@@ -201,6 +201,31 @@ input::placeholder {
   padding: 0;
 }
 
+@media screen and (max-width: 414px) {
+  .navbar__search {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navbar__search__button {
+    float: right;
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navbar__cart {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navbar__profile__name {
+    display: none;
+  }
+}
+
 /* ~~~ navbar */
 
 
