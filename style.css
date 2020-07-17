@@ -203,7 +203,7 @@ input::placeholder {
 
 @media screen and (max-width: 414px) {
   .navbar__search {
-    width: 200px;
+    display: none;
   }
 }
 
@@ -215,8 +215,8 @@ input::placeholder {
 }
 
 @media screen and (max-width: 414px) {
-  .navbar__cart {
-    display: none;
+  .navbar__profile {
+    width: 70px;
   }
 }
 
