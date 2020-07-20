@@ -421,7 +421,7 @@ input::placeholder {
 }
 
 .hotel-detail__map img {
-  width: 350px;
+  width: 100%;
   height: 212px;
 }
 
