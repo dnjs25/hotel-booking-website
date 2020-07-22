@@ -421,6 +421,7 @@ input::placeholder {
 
 .hotel-detail__map {
   justify-content: space-between;
+  width: 350px;
   height: 212px;
 }
 
@@ -549,6 +550,56 @@ input::placeholder {
 @media screen and (max-width: 414px) {
   .map-photo {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-detail .container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-detail__slider {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider-photo {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-detail__right {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-detail__booking {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-detail__map {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .map-photo {
+    width: 330px;
   }
 }
 
