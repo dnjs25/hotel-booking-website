@@ -592,6 +592,12 @@ input::placeholder {
 }
 
 @media screen and (min-width: 768px) {
+  .options-button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .hotel-detail__map {
     width: 330px;
   }
